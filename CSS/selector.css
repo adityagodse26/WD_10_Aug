@@ -1,0 +1,34 @@
+/* types of selector and their types  */
+
+/* SIMPLE SELECTOR -*/
+
+/* id selector (#) - it will target unique element and id name we can use only once*/
+#h77{
+    color: blue;
+}
+/* class selector (.) - it will target multiple html element and class name we can use n number of times*/
+.c1{
+    color: orange;
+}
+/* tagname selector (<>) - we can target directly their tagname */
+h4{
+    color: violet;
+}
+/* grouping selector (,) - here we make a group/merge of selectors for designing purpose*/
+#h77,.c1,h4,h1{
+
+    font-variant: small-caps;
+}
+/* universal selector (*) - we can target entire webpage */
+*{
+    /* background: radial-gradient(white,orange,blue);  */
+    background-color: green;
+    /* uses radial gradient for 2 or more color */
+    /* we can also use background color if we want */
+}
+
+/* COMBINATOR SELECTOR- */
+
+
+
+
