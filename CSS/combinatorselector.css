@@ -1,0 +1,19 @@
+/* COMBINATOR SELECTOR- */
+/* it will show the relationship between parent and child */
+
+/*descedent combinator selector ( )- it will target direct and indirect child*/
+div p{
+    color: red;
+}
+/* child cs (>)- it will target only direct child */
+div>p{
+    font-variant: small-caps;
+}
+/* adjscent subling cs (+) - it will target first sibling */
+div+p{
+    color: green;
+}
+/* general sibling cs (~) - it will target all sibling */
+div~p{
+    background-color: orange;
+}
