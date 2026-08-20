@@ -1,0 +1,75 @@
+/* Text Properties */
+
+p{
+    color: blue;
+    /* color is for textcolor background color is for background color*/
+    text-indent: 400px;
+    /* text indent is for where we want to start the text/para from */
+    text-decoration: underline;
+    /* this is for decoration of the text */
+    text-decoration-style: dashed;
+    /* this is for style of the decoration */
+    text-decoration-color: black;
+    text-transform: uppercase;
+    /* this is for the transformation of the text uppercase or lowercase etc */
+
+}
+
+h1{
+    text-align: center;
+    /* alignment of text or position of the text */
+    color: red;
+    text-shadow: 10px 20px 5px black;
+    /* this is for shadow it has 4 values to enter verticle horizontal blur and color */
+
+    /* font properties */
+    font-family: 'Trebuchet MS';
+    /* this is for the font style of the text */
+    font-size: 60px;
+    /* size of the font */
+    font-weight: lighter;
+    /* to make it light or bold */
+    font-style: italic;
+    /* style of the font */
+    font-variant: small-caps;
+    /* which type of font we want small and caps or etc */
+}
+
+/* background properties */
+section{
+    height: 100vh;
+    width: 100%;
+    /* background-color: purple; */
+    /* this is for backgoround color */
+    /* background: linear-gradient(orange,white,green); */
+    /* this is to add more than one color to the page */
+    background-image: url("https://img.magnific.com/free-photo/cosmos-flowers_1373-83.jpg?semt=ais_hybrid&w=740&q=80"),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRBsa5c2bVIPpKs5m1eXf3Y5mlLeqVhbTr1YfAXWYkvRgEZmbyakF7cGc&s=10");
+    /* this is to add background image */
+    background-repeat: no-repeat;
+    /* we use this so that image wont repeat */
+    background-size: cover;
+    /* this is for the size of the image */
+    background-attachment: fixed;
+    /* this is so that the image wont scroll with the page */
+    background-position: center;
+    /* this is so the image will be in center */
+    background-blend-mode: hard-light;
+    /* we use this if we want to blend 2 images together */
+    opacity: 1.4;
+    /* we use this for the bluryness of image */
+}
+
+div{
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(pink,purple);
+    border-style: double;
+    /* this is for style of the border */
+    margin: 100px 150px 200px 100px;
+    /* we use margin for space */
+    /* we can also use it for a specific side margin-top right lefft etc */
+    padding-top: 30px;
+    /* we use this for the space between contain and the border */
+    padding-left: 30px;
+    /* its the same as the above */
+}
