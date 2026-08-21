@@ -1,0 +1,39 @@
+img{
+    height: 250px;
+    width: 260px;
+}
+
+section{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+div{
+    height: 300px;
+    width: 260px;
+    border-style: double;
+}
+
+h3{
+    text-align: center;
+}
+
+img:hover{
+    height: 300px;
+    width: 300px;
+}
+
+h3:hover{
+    display: none;
+}
+
+*{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv-zhz6qgdnW0wAG581n-5OIUhM0Ym2rApi0Yny14DgKNGr2uLbPXIi9VD&s=10");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
